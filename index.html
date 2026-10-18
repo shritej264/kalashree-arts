@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="hi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#7b245b">
+  <title>कलाश्री Arts | Handmade Rangoli & Online Classes</title>
+  <meta name="description" content="Kalashree Arts — handmade woolen mat rangoli, creative art products and online rangoli classes.">
+  <style>
+    :root{--plum:#70214f;--plum2:#91376b;--rose:#f9e8f1;--gold:#e9b65d;--ink:#2d2330;--muted:#716776;--paper:#fffafc;--line:#f0dce7;--green:#16784d}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;color:var(--ink);background:var(--paper)}
+    a{color:inherit;text-decoration:none}button,input,textarea,select{font:inherit}button{cursor:pointer}
+    .topbar{background:#4f173b;color:#fff;text-align:center;padding:9px 14px;font-size:13px;letter-spacing:.2px}
+    header{position:sticky;top:0;z-index:10;background:rgba(255,250,252,.95);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+    .nav{max-width:1180px;margin:auto;padding:14px 22px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+    .brand{display:flex;align-items:center;gap:11px;font-weight:850;color:var(--plum);font-size:19px;letter-spacing:.2px}
+    .brand-mark{width:43px;height:43px;border-radius:15px;background:linear-gradient(135deg,var(--plum),#c64f91);display:grid;place-items:center;color:white;font-size:23px;box-shadow:0 7px 18px #70214f30}
+    .navlinks{display:flex;align-items:center;gap:22px;font-size:14px;font-weight:650}.navlinks a:hover{color:var(--plum2)}
+    .btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;border:0;border-radius:999px;padding:12px 18px;font-weight:750;transition:.2s}
+    .btn-primary{background:var(--plum);color:#fff;box-shadow:0 8px 20px #70214f26}.btn-primary:hover{background:var(--plum2);transform:translateY(-1px)}
+    .btn-light{background:#fff;color:var(--plum);border:1px solid var(--line)}.btn-light:hover{background:var(--rose)}
+    .hero{max-width:1180px;margin:auto;padding:64px 22px 48px;display:grid;grid-template-columns:1.03fr .97fr;gap:44px;align-items:center}
+    .eyebrow{display:inline-flex;gap:8px;align-items:center;background:var(--rose);color:var(--plum);border:1px solid #f1d1e2;border-radius:999px;padding:8px 12px;font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:1px}
+    h1{font-size:clamp(38px,5.2vw,66px);line-height:1.04;letter-spacing:-2.5px;margin:18px 0 18px;color:#3c2034}
+    h1 span{color:var(--plum2)}.hero p{font-size:17px;line-height:1.8;color:var(--muted);max-width:570px}
+    .hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin:26px 0}.trust{display:flex;gap:20px;flex-wrap:wrap;color:var(--muted);font-size:13px}.trust b{color:var(--plum)}
+    .hero-art{position:relative;min-height:420px;display:grid;place-items:center}
+    .hero-orb{position:absolute;width:370px;height:370px;border-radius:50%;background:radial-gradient(circle at 30% 30%,#fff,#f8dce9 58%,#efbdd5);filter:drop-shadow(0 25px 35px #8c35631a)}
+    .hero-rangoli{position:relative;width:min(100%,430px);filter:drop-shadow(0 22px 28px #66234728);transform:rotate(-5deg)}
+    .float-card{position:absolute;background:#fff;border:1px solid var(--line);border-radius:18px;padding:13px 16px;box-shadow:0 14px 35px #5c254014;font-size:13px;font-weight:750}
+    .float-card small{display:block;color:var(--muted);font-weight:500;margin-top:3px}.fc1{left:0;top:50px}.fc2{right:0;bottom:45px}
+    section{scroll-margin-top:90px}.section{max-width:1180px;margin:auto;padding:54px 22px}.section-head{display:flex;justify-content:space-between;align-items:end;gap:20px;margin-bottom:26px}.kicker{font-size:12px;letter-spacing:1.6px;text-transform:uppercase;font-weight:850;color:var(--plum2)}h2{font-size:clamp(27px,3.5vw,39px);letter-spacing:-1px;margin:8px 0 0;color:#3c2034}.section-head p{color:var(--muted);max-width:470px;line-height:1.65;margin:0}
+    .products{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}.product{background:#fff;border:1px solid var(--line);border-radius:22px;overflow:hidden;transition:.22s;display:flex;flex-direction:column}.product:hover{transform:translateY(-4px);box-shadow:0 16px 36px #6e20491a}.product-art{padding:18px;background:linear-gradient(145deg,#fff5fa,#f9e9f2);aspect-ratio:1.1;display:grid;place-items:center}.product-art img{width:100%;height:100%;object-fit:contain}.product-body{padding:17px;display:flex;flex-direction:column;flex:1}.product-body h3{margin:0 0 7px;font-size:16px}.product-body p{margin:0 0 14px;font-size:13px;color:var(--muted);line-height:1.5;flex:1}.price-row{display:flex;justify-content:space-between;align-items:center;margin-bottom:14px}.price{font-weight:850;color:var(--plum);font-size:19px}.tag{font-size:11px;background:#f8eaf1;color:var(--plum);padding:5px 8px;border-radius:999px;font-weight:800}.product .btn{width:100%;padding:11px 12px;font-size:13px}
+    .classes-wrap{background:#fff2f8;border-block:1px solid var(--line)}.class-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:22px}.live-card{background:linear-gradient(135deg,#57203f,#8d3266);color:#fff;border-radius:26px;padding:30px;position:relative;overflow:hidden;min-height:280px}.live-card:after{content:"";position:absolute;width:230px;height:230px;border-radius:50%;border:35px solid #ffffff12;right:-60px;top:-55px}.live-label{display:inline-flex;align-items:center;gap:8px;background:#ffffff20;padding:7px 10px;border-radius:99px;font-size:12px;font-weight:800}.dot{width:8px;height:8px;background:#ff6d8f;border-radius:50%;box-shadow:0 0 0 5px #ff6d8f30}.live-card h3{font-size:29px;margin:18px 0 10px;max-width:390px}.live-card p{line-height:1.7;color:#f5dce9;max-width:420px;font-size:14px}.live-card .btn{margin-top:10px;background:#fff;color:var(--plum);position:relative;z-index:1}.side-classes{display:grid;gap:15px}.info-card{background:#fff;border:1px solid var(--line);border-radius:22px;padding:22px;display:flex;gap:15px;align-items:flex-start}.info-icon{width:45px;height:45px;flex:0 0 45px;border-radius:15px;background:var(--rose);display:grid;place-items:center;font-size:22px}.info-card h3{font-size:16px;margin:1px 0 6px}.info-card p{margin:0;color:var(--muted);font-size:13px;line-height:1.6}
+    .videos{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.video-card{border:1px solid var(--line);border-radius:20px;background:#fff;overflow:hidden}.video-thumb{aspect-ratio:16/9;display:grid;place-items:center;background:linear-gradient(135deg,#eec4dc,#fbe9f3);position:relative}.video-thumb:nth-child(2){background:linear-gradient(135deg,#f6dca7,#fff2d5)}.play{width:54px;height:54px;border-radius:50%;display:grid;place-items:center;background:#fff;color:var(--plum);box-shadow:0 8px 20px #4c163122;font-size:22px;padding-left:3px}.video-thumb span{position:absolute;bottom:12px;left:12px;background:#ffffffdb;border-radius:8px;padding:5px 8px;font-size:11px;font-weight:800}.video-body{padding:17px}.video-body h3{margin:0 0 7px;font-size:16px}.video-body p{margin:0;color:var(--muted);font-size:13px;line-height:1.5}.free-label{display:inline-block;color:var(--green);font-size:11px;font-weight:850;margin-top:12px}
+    .about{display:grid;grid-template-columns:.9fr 1.1fr;gap:40px;align-items:center}.about-visual{border-radius:28px;min-height:300px;background:radial-gradient(circle at 40% 40%,#fff 0 12%,#f5d4e4 13% 27%,#e8afcd 28% 45%,#7c2d5a 46% 49%,#f8e3ed 50%);display:grid;place-items:center;overflow:hidden}.about-visual span{font-size:70px;filter:drop-shadow(0 5px 10px #5b204b30)}.about-copy p{line-height:1.85;color:var(--muted)}.ticks{list-style:none;padding:0;display:grid;gap:10px;margin:20px 0}.ticks li:before{content:"✓";color:var(--green);font-weight:900;margin-right:10px}
+    .cta{max-width:1136px;margin:15px auto 65px;padding:36px 34px;border-radius:26px;background:linear-gradient(120deg,#f7dce9,#fff1f7);display:flex;align-items:center;justify-content:space-between;gap:25px}.cta h2{margin:0 0 8px}.cta p{margin:0;color:var(--muted);line-height:1.6}
+    footer{background:#38152b;color:#f9eaf2;padding:34px 22px}.footer-inner{max-width:1180px;margin:auto;display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap}.footer-inner p{font-size:13px;color:#e6c9d9}.footer-links{display:flex;gap:17px;font-size:13px}
+    .wa-float{position:fixed;bottom:18px;right:18px;z-index:20;width:57px;height:57px;border-radius:50%;display:grid;place-items:center;background:#19a866;color:#fff;font-size:24px;box-shadow:0 12px 25px #168c543d;border:3px solid white}
+    .modal-backdrop{position:fixed;inset:0;z-index:50;background:#21101dd9;display:none;align-items:center;justify-content:center;padding:18px}.modal-backdrop.open{display:flex}.modal{width:min(100%,540px);max-height:90vh;overflow:auto;background:#fffafc;border-radius:24px;padding:24px;box-shadow:0 20px 70px #0004}.modal-top{display:flex;align-items:center;justify-content:space-between;gap:15px}.modal h2{font-size:25px}.close{border:0;background:#f4e5ed;border-radius:50%;width:38px;height:38px;font-size:22px;color:var(--plum)}.field{display:grid;gap:6px;margin:13px 0}.field label{font-size:13px;font-weight:750}.field input,.field textarea,.field select{width:100%;border:1px solid #e7cfdd;border-radius:12px;padding:12px;background:#fff;outline-color:var(--plum2)}.field textarea{min-height:80px;resize:vertical}.note{font-size:12px;line-height:1.6;color:var(--muted);background:#fff0f7;border-radius:12px;padding:12px}.admin-list{display:grid;gap:8px;margin-top:12px}.admin-item{background:#fff;border:1px solid var(--line);padding:11px;border-radius:12px;display:flex;justify-content:space-between;align-items:center;gap:10px;font-size:13px}.tiny-btn{border:0;background:#f5e4ed;color:var(--plum);border-radius:8px;padding:7px 9px;font-weight:750}
+
+    .room-controls{display:flex;gap:10px;flex-wrap:wrap;margin-top:15px}
+    .room-controls .btn{font-size:13px}
+    .btn-control{background:#f3e4ed;color:var(--plum);border:1px solid #e8cadb}
+    .btn-control.active{background:#e0f4e9;color:#126a43;border-color:#b6e5cb}
+    .camera-preview{width:100%;aspect-ratio:16/9;background:#241522;border-radius:16px;overflow:hidden;display:grid;place-items:center;color:#fff;position:relative;margin:14px 0}
+    .camera-preview video{width:100%;height:100%;object-fit:cover;display:none}
+    .camera-preview .preview-placeholder{text-align:center;padding:20px;color:#f5dce9;font-size:14px;line-height:1.7}
+    .room-status{font-size:12px;color:var(--muted);margin-top:10px;line-height:1.6}
+
+    @media(max-width:900px){.hero{grid-template-columns:1fr;padding-top:45px}.hero-art{min-height:350px}.hero-orb{width:310px;height:310px}.products{grid-template-columns:repeat(2,1fr)}.class-grid{grid-template-columns:1fr}.about{grid-template-columns:1fr}.about-visual{min-height:250px}.navlinks{gap:12px}.navlinks a:not(.btn){display:none}.videos{grid-template-columns:repeat(2,1fr)}.cta{margin-inline:18px}}
+    @media(max-width:560px){.nav{padding:11px 15px}.brand{font-size:16px}.brand-mark{width:38px;height:38px}.nav .btn{padding:10px 12px;font-size:12px}.hero{padding:38px 18px 30px;gap:10px}.hero-art{min-height:300px}.hero-orb{width:260px;height:260px}.fc1{left:-2px;top:20px}.fc2{right:-2px;bottom:20px}.float-card{font-size:11px;padding:10px 12px}.section{padding:42px 18px}.section-head{display:block}.section-head p{margin-top:10px}.products{gap:11px}.product{border-radius:16px}.product-art{padding:10px}.product-body{padding:12px}.product-body h3{font-size:14px}.product-body p{font-size:12px}.price{font-size:16px}.tag{font-size:9px}.product .btn{font-size:12px}.videos{grid-template-columns:1fr}.live-card{padding:24px}.cta{padding:25px;display:block}.cta .btn{margin-top:18px}.hero-actions .btn{flex:1}.trust{gap:10px}.section-head h2{max-width:100%}}
+  </style>
+</head>
+<body>
+  <div class="topbar">Handmade with love ✨ &nbsp; | &nbsp; Online Rangoli Classes & Handmade Arts</div>
+  <header>
+    <nav class="nav">
+      <a class="brand" href="#home"><span class="brand-mark">✿</span><span>कलाश्री <span style="color:#b34c83">Arts</span></span></a>
+      <div class="navlinks">
+        <a href="#arts">Our Arts</a><a href="#classes">Live Classes</a><a href="#videos">Free Videos</a><a href="#about">About</a>
+        <a class="btn btn-primary" href="https://wa.me/917875544991?text=Namaste%20Kalashree%20Arts%2C%20mujhe%20jaankari%20chahiye." target="_blank" rel="noopener">WhatsApp Us ↗</a>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="hero" id="home">
+      <div>
+        <span class="eyebrow">✦ Handmade • Heartmade</span>
+        <h1>Har rang mein<br><span>ek kahaani.</span></h1>
+        <p>Welcome to Kalashree Arts — rang-birangi woolen mat rangoli, handmade creations aur ghar baithe art seekhne ki jagah. Pyaar se banaye gaye designs, aapke ghar ke liye.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#arts">Explore Handmade Arts <span>→</span></a>
+          <a class="btn btn-light" href="#classes">Explore Classes</a>
+        </div>
+        <div class="trust"><span>✿ <b>Handmade</b> creations</span><span>✿ <b>Free</b> recorded lessons</span><span>✿ <b>Direct</b> WhatsApp orders</span></div>
+      </div>
+      <div class="hero-art">
+        <div class="hero-orb"></div>
+        <img class="hero-rangoli" src="assets/rangoli-main.svg" alt="Colorful handmade woolen mat rangoli sample">
+        <div class="float-card fc1">🧶 Handmade art<small>Made with care</small></div>
+        <div class="float-card fc2">🌸 Learn from home<small>Creative classes</small></div>
+      </div>
+    </section>
+
+    <section class="section" id="arts">
+      <div class="section-head">
+        <div><span class="kicker">Our handmade collection</span><h2>Made by hand, loved by heart.</h2></div>
+        <p>Yeh sample designs hain. Apne asli products ki photos aur prices admin demo mein update kar sakte hain.</p>
+      </div>
+      <div class="products" id="productGrid">
+        <article class="product" data-name="Pink Bloom Woolen Rangoli" data-price="799">
+          <div class="product-art"><img src="assets/rangoli-pink.svg" alt="Pink Bloom woolen rangoli sample"></div>
+          <div class="product-body"><h3>Pink Bloom Rangoli</h3><p>Floral woolen mat rangoli — festive home decor.</p><div class="price-row"><span class="price">₹799</span><span class="tag">HANDMADE</span></div><button class="btn btn-primary buy-btn">Buy on WhatsApp ↗</button></div>
+        </article>
+        <article class="product" data-name="Royal Peacock Rangoli" data-price="999">
+          <div class="product-art"><img src="assets/rangoli-peacock.svg" alt="Royal Peacock rangoli sample"></div>
+          <div class="product-body"><h3>Royal Peacock Rangoli</h3><p>Bright peacock-inspired design for a special corner.</p><div class="price-row"><span class="price">₹999</span><span class="tag">POPULAR</span></div><button class="btn btn-primary buy-btn">Buy on WhatsApp ↗</button></div>
+        </article>
+        <article class="product" data-name="Sunshine Floral Mat" data-price="649">
+          <div class="product-art"><img src="assets/rangoli-sunshine.svg" alt="Sunshine floral mat sample"></div>
+          <div class="product-body"><h3>Sunshine Floral Mat</h3><p>Warm yellow floral style for everyday decoration.</p><div class="price-row"><span class="price">₹649</span><span class="tag">NEW</span></div><button class="btn btn-primary buy-btn">Buy on WhatsApp ↗</button></div>
+        </article>
+        <article class="product" data-name="Festive Lotus Rangoli" data-price="899">
+          <div class="product-art"><img src="assets/rangoli-lotus.svg" alt="Festive lotus rangoli sample"></div>
+          <div class="product-body"><h3>Festive Lotus Rangoli</h3><p>Lotus-inspired handmade decor for festive days.</p><div class="price-row"><span class="price">₹899</span><span class="tag">FESTIVE</span></div><button class="btn btn-primary buy-btn">Buy on WhatsApp ↗</button></div>
+        </article>
+      </div>
+    </section>
+
+    <div class="classes-wrap" id="classes">
+      <section class="section">
+        <div class="section-head"><div><span class="kicker">Learn with Kalashree</span><h2>Let’s create something beautiful.</h2></div><p>Live class room abhi demo mode mein hai. Real live video service connect karne ke baad yahin class chalegi.</p></div>
+        <div class="class-grid">
+          <div class="live-card">
+            <span class="live-label"><span class="dot"></span> LIVE CLASSROOM</span>
+            <h3>Learn woolen mat rangoli, step by step.</h3>
+            <p>Teacher-led live classes with a clear view of the craft table. Live room ko launch se pehle video provider ke saath connect karna hoga.</p>
+            <button class="btn" id="joinLive">Enter Live Classroom →</button>
+          </div>
+          <div class="side-classes">
+            <div class="info-card"><div class="info-icon">🎥</div><div><h3>Live classes on the website</h3><p>Planned for 30–100 viewers. Camera/mic, viewer access and recording need real video integration before public launch.</p></div></div>
+            <div class="info-card"><div class="info-icon">🔒</div><div><h3>Teacher / Admin tools</h3><p>Manage sample products and class information from the demo admin. A secure online admin needs a backend and login setup.</p></div></div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <section class="section" id="videos">
+      <div class="section-head"><div><span class="kicker">Watch & learn</span><h2>Free recorded lessons.</h2></div><p>Sample lessons abhi placeholder hain. Apne actual public video URLs add karne ke baad students bina login ke dekh sakte hain.</p></div>
+      <div class="videos">
+        <article class="video-card"><a class="video-thumb video-link" href="#" data-video=""><div class="play">▶</div><span>BEGINNER • 10 MIN</span></a><div class="video-body"><h3>Rangoli basics for beginners</h3><p>Tools, wool selection aur basic pattern setup.</p><span class="free-label">● FREE LESSON</span></div></article>
+        <article class="video-card"><a class="video-thumb video-link" href="#" data-video=""><div class="play">▶</div><span>FLORAL DESIGN • 15 MIN</span></a><div class="video-body"><h3>Simple floral pattern</h3><p>Ek sundar floral motif banana seekhein.</p><span class="free-label">● FREE LESSON</span></div></article>
+        <article class="video-card"><a class="video-thumb video-link" href="#" data-video=""><div class="play">▶</div><span>FINISHING • 8 MIN</span></a><div class="video-body"><h3>Neat finishing tips</h3><p>Edges aur final look ko clean banane ke tips.</p><span class="free-label">● FREE LESSON</span></div></article>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="about-visual"><span>🌸</span></div>
+      <div class="about-copy"><span class="kicker">Our story</span><h2>Creativity, culture & a little bit of colour.</h2><p>Kalashree Arts ek handmade art aur learning space hai — jahan rangoli craft ke pyaar ko share kiya jata hai. Yahan aap handmade pieces explore kar sakte hain, free lessons dekh sakte hain aur upcoming live classes ke baare mein pooch sakte hain.</p><ul class="ticks"><li>Handmade woolen mat rangoli</li><li>Beginner-friendly art lessons</li><li>Direct WhatsApp communication</li></ul><a class="btn btn-primary" href="https://wa.me/917875544991?text=Namaste%20Kalashree%20Arts%2C%20mujhe%20classes%20aur%20products%20ke%20baare%20mein%20jaankari%20chahiye." target="_blank" rel="noopener">Contact Kalashree Arts ↗</a></div>
+    </section>
+
+    <section class="cta"><div><h2>Ready to add colour to your home?</h2><p>Product availability, custom designs aur classes ke liye WhatsApp par message karein.</p></div><a class="btn btn-primary" href="https://wa.me/917875544991?text=Namaste%20Kalashree%20Arts%2C%20mujhe%20details%20chahiye." target="_blank" rel="noopener">Chat on WhatsApp ↗</a></section>
+  </main>
+  <footer><div class="footer-inner"><div><a class="brand" href="#home" style="color:#fff"><span class="brand-mark">✿</span><span>कलाश्री Arts</span></a><p>Handmade with love. Learn, create, share.</p></div><div class="footer-links"><a href="#arts">Arts</a><a href="#classes">Classes</a><a href="#videos">Free videos</a><a href="#" id="adminOpen">Admin demo</a></div><p>© <span id="year"></span> Kalashree Arts</p></div></footer>
+  <a class="wa-float" aria-label="WhatsApp Kalashree Arts" href="https://wa.me/917875544991?text=Namaste%20Kalashree%20Arts" target="_blank" rel="noopener">✆</a>
+
+  <div class="modal-backdrop" id="modalBackdrop" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal">
+      <div class="modal-top"><h2 id="modalTitle">Kalashree Arts</h2><button class="close" id="modalClose" aria-label="Close">×</button></div>
+      <div id="modalContent"></div>
+    </div>
+  </div>
+<script>
+(() => {
+  const WHATSAPP = "917875544991";
+  const $ = (s, root=document) => root.querySelector(s);
+  const $$ = (s, root=document) => [...root.querySelectorAll(s)];
+  $("#year").textContent = new Date().getFullYear();
+  const backdrop = $("#modalBackdrop"), modalTitle = $("#modalTitle"), modalContent = $("#modalContent");
+  function openModal(title, html) { modalTitle.textContent=title; modalContent.innerHTML=html; backdrop.classList.add("open"); }
+  function closeModal(){backdrop.classList.remove("open"); if(localStream){localStream.getTracks().forEach(track=>track.stop());localStream=null;}}
+  $("#modalClose").addEventListener("click",closeModal);
+  backdrop.addEventListener("click",e=>{if(e.target===backdrop)closeModal()});
+  document.addEventListener("keydown",e=>{if(e.key==="Escape")closeModal()});
+
+  function waLink(name, price) {
+    const msg = `Namaste Kalashree Arts! Mujhe "${name}" ke baare mein order/availability poochni hai. Listed price: ₹${price}.`;
+    return `https://wa.me/${WHATSAPP}?text=${encodeURIComponent(msg)}`;
+  }
+  function bindBuyButtons(){
+    $$(".product").forEach(card=>{
+      const btn=$(".buy-btn",card);
+      if(btn) btn.onclick=()=>window.open(waLink(card.dataset.name,card.dataset.price),"_blank","noopener");
+    });
+  }
+  bindBuyButtons();
+
+  let localStream = null;
+  let cameraEnabled = false;
+  let micEnabled = false;
+  async function stopLocalPreview(){
+    if(localStream){ localStream.getTracks().forEach(track=>track.stop()); localStream=null; }
+    cameraEnabled=false; micEnabled=false;
+  }
+  async function startLocalPreview(){
+    if(!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia){
+      $("#roomStatus").textContent = "Camera/mic preview ke liye site ko HTTPS ya localhost par open karein. file:// se browser permission block ho sakti hai.";
+      return;
+    }
+    try{
+      localStream = await navigator.mediaDevices.getUserMedia({video:true,audio:true});
+      const video=$("#localVideo");
+      video.srcObject=localStream;
+      video.style.display="block";
+      await video.play();
+      cameraEnabled=true; micEnabled=true;
+      $("#cameraToggle").classList.add("active");
+      $("#micToggle").classList.add("active");
+      $("#cameraToggle").textContent="📷 Camera On";
+      $("#micToggle").textContent="🎙️ Mic On";
+      $("#previewPlaceholder").style.display="none";
+      $("#roomStatus").textContent="Aapka local camera/mic preview chal raha hai. Abhi doosre students/teacher se connect nahi hota.";
+    }catch(err){
+      $("#roomStatus").textContent="Camera/mic permission nahi mili. Browser settings mein permission allow karke dobara try karein. ("+(err.name||"Error")+")";
+    }
+  }
+  $("#joinLive").addEventListener("click",()=>{
+    openModal("Live classroom — camera & mic demo", `
+      <p>Teacher aur student dono ke liye camera/mic controls ka preview. Neeche apna role select karke local camera test karein.</p>
+      <div class="field"><label for="roomRole">I am joining as</label><select id="roomRole"><option>Student</option><option>Teacher</option></select></div>
+      <div class="field"><label for="roomName">Your name</label><input id="roomName" placeholder="Enter your name"></div>
+      <div class="field"><label for="roomCode">Class room code</label><input id="roomCode" placeholder="e.g. KALASHREE-01"></div>
+      <div class="camera-preview"><video id="localVideo" autoplay playsinline muted></video><div class="preview-placeholder" id="previewPlaceholder">📹<br><b>Camera preview</b><br>Click “Start camera & mic” to test your device.</div></div>
+      <div class="room-controls">
+        <button class="btn btn-primary" id="startPreview">Start camera & mic</button>
+        <button class="btn btn-control" id="cameraToggle" disabled>📷 Camera Off</button>
+        <button class="btn btn-control" id="micToggle" disabled>🎙️ Mic Off</button>
+        <button class="btn btn-light" id="leaveRoom">Leave</button>
+      </div>
+      <p class="room-status" id="roomStatus">Demo mode: camera/mic preview sirf is device par chalega. Real multi-person live class ke liye secure LiveKit connection add karna hoga.</p>
+      <div class="note"><b>Real live classroom ke liye:</b> teacher aur students ek hi room code se join karenge. Har participant camera/mic on/off kar sakega. Iske liye LiveKit Cloud + secure server-side access tokens chahiye; static HTML alone se internet par multi-person call nahi chalti.</div>
+    `);
+    $("#startPreview").addEventListener("click", startLocalPreview);
+    $("#cameraToggle").addEventListener("click",()=>{
+      if(!localStream)return;
+      cameraEnabled=!cameraEnabled;
+      localStream.getVideoTracks().forEach(t=>t.enabled=cameraEnabled);
+      $("#cameraToggle").classList.toggle("active",cameraEnabled);
+      $("#cameraToggle").textContent=cameraEnabled?"📷 Camera On":"📷 Camera Off";
+    });
+    $("#micToggle").addEventListener("click",()=>{
+      if(!localStream)return;
+      micEnabled=!micEnabled;
+      localStream.getAudioTracks().forEach(t=>t.enabled=micEnabled);
+      $("#micToggle").classList.toggle("active",micEnabled);
+      $("#micToggle").textContent=micEnabled?"🎙️ Mic On":"🎙️ Mic Off";
+    });
+    $("#leaveRoom").addEventListener("click",async()=>{await stopLocalPreview();closeModal()});
+  });
+
+  $$(".video-link").forEach(link=>link.addEventListener("click",e=>{
+    e.preventDefault();
+    const url=link.dataset.video;
+    if(url){window.open(url,"_blank","noopener");return;}
+    openModal("Free lesson — sample", `<p>Yeh lesson card demo ke liye hai. Admin mein apne public YouTube/video URL ko set karna hoga.</p><div class="note">Tip: Public recorded videos ko login ke bina viewable rakhein. Apne video ka link milne par code mein <b>data-video</b> value replace karein.</div>`);
+  }));
+
+  $("#adminOpen").addEventListener("click",e=>{
+    e.preventDefault();
+    openModal("Admin demo", `
+      <p>Is demo se product list browser ke isi device mein update hoti hai. Yeh secure online admin panel nahi hai — public launch se pehle real authentication aur database zaroor add karein.</p>
+      <div class="note">Demo access: koi password nahi. Isliye yahan real private data use na karein.</div>
+      <form id="adminForm">
+        <div class="field"><label for="pName">Product name</label><input id="pName" required placeholder="e.g. Custom floral rangoli"></div>
+        <div class="field"><label for="pPrice">Price (₹)</label><input id="pPrice" required type="number" min="1" placeholder="799"></div>
+        <div class="field"><label for="pDesc">Short description</label><textarea id="pDesc" placeholder="Handmade woolen mat rangoli"></textarea></div>
+        <button class="btn btn-primary" type="submit">Add sample product</button>
+      </form>
+      <div class="admin-list" id="adminList"></div>
+      <p class="note">Note: Added product is saved only in this browser. It does not automatically appear on other visitors' devices.</p>`);
+    const saved = JSON.parse(localStorage.getItem("kalashreeDemoProducts") || "[]");
+    const list=$("#adminList");
+    function render(){
+      list.innerHTML="";
+      saved.forEach((p,i)=>{
+        const row=document.createElement("div"); row.className="admin-item";
+        const txt=document.createElement("span"); txt.textContent=`${p.name} — ₹${p.price}`;
+        const del=document.createElement("button");del.className="tiny-btn";del.textContent="Remove";
+        del.onclick=()=>{saved.splice(i,1);localStorage.setItem("kalashreeDemoProducts",JSON.stringify(saved));render()};
+        row.append(txt,del);list.append(row);
+      });
+      if(!saved.length) list.innerHTML='<p style="color:#716776;font-size:13px">No demo products added yet.</p>';
+    }
+    $("#adminForm").addEventListener("submit",e=>{
+      e.preventDefault();
+      saved.push({name:$("#pName").value.trim(),price:Number($("#pPrice").value),desc:$("#pDesc").value.trim()});
+      localStorage.setItem("kalashreeDemoProducts",JSON.stringify(saved));e.target.reset();render();
+    });
+    render();
+  });
+})();
+</script>
+</body>
+</html>
